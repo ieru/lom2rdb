@@ -43,3 +43,7 @@ git clone http://github.com/ieru/lom2rdb
 
 You can put this in your default Apache server for accessing it through the URL http://localhost, or configure the Apache server as needed.
 
+For using your local database, edit the file under 
+
+API usage
+--------
