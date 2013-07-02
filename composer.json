@@ -14,13 +14,13 @@
         }
     ],
 	"require": {
-		"ieru/ieru-rest-engine": "*",
-		"ieru/ieru-oe-apis": "*",
 		"illuminate/database": "*",
 		"dhorrigan/capsule": "*"
 	},
 	"autoload": {
-		
-	},
+        "psr-0": {
+            "Ieru": "ieru"
+        }
+    },
 	"minimum-stability": "dev"
 }

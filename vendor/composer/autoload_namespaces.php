@@ -10,7 +10,7 @@ return array(
     'Illuminate\\Events' => array($vendorDir . '/illuminate/events'),
     'Illuminate\\Database' => array($vendorDir . '/illuminate/database'),
     'Illuminate\\Container' => array($vendorDir . '/illuminate/container'),
-    'Ieru' => array($vendorDir . '/ieru/ieru-rest-engine/src', $vendorDir . '/ieru/ieru-oe-apis/src'),
+    'Ieru' => array($baseDir . '/ieru', $vendorDir . '/ieru/ieru-rest-engine/src', $vendorDir . '/ieru/ieru-oe-apis/src'),
     'Carbon' => array($vendorDir . '/nesbot/carbon'),
     'Capsule' => array($vendorDir . '/dhorrigan/capsule/lib'),
 );
