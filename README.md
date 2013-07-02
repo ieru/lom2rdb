@@ -41,7 +41,13 @@ Download this project of Github and extract it to a local folder, or use the fol
 git clone http://github.com/ieru/lom2rdb
 ```
 
-You can put this in your default Apache server for accessing it through the URL http://localhost, or configure the Apache server as needed.
+* You can put this in your default Apache server for accessing it through the URL http://localhost, or configure the Apache server as needed.
+
+* Create a new folder called "xml" in the root of the folder and copy inside there all the XML files you want to import to the database.
+
+* Edit the database connection parameters in the file vendor/ieru/Ieru/Ieruapis/Import/Config/Config.php (username, database, password, etc.).
+
+* Import the file ieee-lom-schema.sql into your database.
 
 API usage
 ---------
