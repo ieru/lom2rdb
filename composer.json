@@ -1,0 +1,26 @@
+{
+	"name": "ieru/ieru-api-server",
+    "description": "API server for the Organic.Edunet project",
+    "homepage": "https://github.com/ieru/ieru-api-server",
+	"version": "1.0.0",
+    "keywords": ["rest","apis","organic edunet","analytics","organic","php","json"],
+	"license": "LPGL",
+    "authors": [
+        {
+            "name": "David Banos Exposito",
+            "email": "david.banos@uah.es",
+            "homepage": "http://www.ieru.org",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+		"ieru/ieru-rest-engine": "*",
+		"ieru/ieru-oe-apis": "*",
+		"illuminate/database": "*",
+		"dhorrigan/capsule": "*"
+	},
+	"autoload": {
+		
+	},
+	"minimum-stability": "dev"
+}
