@@ -1,9 +1,9 @@
 {
-	"name": "ieru/lom2rdb",
-    "description": "Inserts IEEE LOM resources to a relational database (MySQL)",
-    "homepage": "https://github.com/ieru/lom2rdb",
+	"name": "ieru/ieru-api-server",
+    "description": "API server for the Organic.Edunet project",
+    "homepage": "https://github.com/ieru/ieru-api-server",
 	"version": "1.0.0",
-    "keywords": ["rest","apis","organic edunet","ieru","ieee lom","database"],
+    "keywords": ["rest","apis","organic edunet","analytics","organic","php","json"],
 	"license": "LPGL",
     "authors": [
         {
@@ -14,6 +14,10 @@
         }
     ],
 	"require": {
+		"ieru/ieru-rest-engine": "*",
+		"ieru/ieru-oe-apis": "*",
+		"illuminate/database": "*",
+		"dhorrigan/capsule": "*"
 	},
 	"autoload": {
 		

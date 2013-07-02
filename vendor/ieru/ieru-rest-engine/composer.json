@@ -1,0 +1,24 @@
+{
+	"name": "ieru/ieru-rest-engine",
+    "description": "PHP REST engine for various projects of the IERU research team",
+    "homepage": "https://github.com/ieru/ieru-rest-engine",
+	"version": "1.0.0",
+    "keywords": ["rest","engine","organic edunet"],
+	"license": "LPGL",
+    "authors": [
+        {
+            "name": "David Banos Exposito",
+            "email": "david.banos@uah.es",
+            "homepage": "http://www.ieru.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+	"autoload": {
+        "psr-0": {
+            "Ieru": "src"
+        }
+    }
+}
