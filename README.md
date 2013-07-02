@@ -49,6 +49,7 @@ API usage
 The project can be accessed, once installed correctly, through the browser. As it is using a custom REST engine (http://github.com/ieru/ieru-rest-engine) and an API created for that REST engine, it has different methods that can be called for importing and exporting the IEEE LOM xml resources.
 
 **Retrieve in XML format a resource stored in the database**
+
 GET api/import/get/:id
 * **Description:** allows the user to retrieve all the metadata of a learning resource in XML format.
 * **Params:**
