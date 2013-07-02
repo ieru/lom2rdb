@@ -1,7 +1,13 @@
 IEEE LOM resource to MySQL database
 ===============
 
-**Requirements**
+About
+-----
+
+This project is meant to import an XML file that contains the information of a learning resource in the IEEE LOM format into a relational database (MySQL). This way it will be accessed easily in any web project, like in Organic Edunet (http://organic-edunet.eu).
+
+Requirements
+------------
 
 For installing the Analytics Service, a server with the following tools installed is required:
 * PHP 5.4
