@@ -1,14 +1,14 @@
 {
-	"name": "ieru/ieru-api-server",
-    "description": "API server for the Organic.Edunet project",
+	"name": "ieru/lom2rdb",
+    "description": "Convert IEEE LOM xml to a MySQL relational database",
     "homepage": "https://github.com/ieru/ieru-api-server",
-	"version": "1.0.0",
-    "keywords": ["rest","apis","organic edunet","analytics","organic","php","json"],
+	"version": "2.0.0",
+    "keywords": ["IEEE LOM", "relational", "database", "MySQL"],
 	"license": "LPGL",
     "authors": [
         {
             "name": "David Banos Exposito",
-            "email": "david.banos@uah.es",
+            "email": "david@teluria.es",
             "homepage": "http://www.ieru.org",
             "role": "Developer"
         }
@@ -18,9 +18,6 @@
 		"dhorrigan/capsule": "*"
 	},
 	"autoload": {
-        "psr-0": {
-            "Ieru": "ieru"
-        }
     },
 	"minimum-stability": "dev"
 }
